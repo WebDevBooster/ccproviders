@@ -32,7 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </p>
                     <p>
                         You can <a href="http://fnx.alexbooster.com/wp/ccproviders.zip"><strong>download this child theme here</strong></a>.
-                        Or get it on <a href="https://github.com/WebDevBooster"><strong>GitHub here</strong></a>.
+                        Or get it on <a href="https://github.com/WebDevBooster/ccproviders"><strong>GitHub here</strong></a>.
                         <br>
                         You can also download the backup file in the
                         <a href="http://fnx.alexbooster.com/wp/wp-admin/"><strong>WP admin area here</strong></a>
