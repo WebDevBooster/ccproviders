@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>3F8E5156-A886-4E4A-ADB8-87A82B5CBB9A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M7.1763051,9.58924664 C6.94123163,9.35417318 6.94123163,8.97405439 7.1763051,8.74148171 L7.74148171,8.1763051 C7.97655517,7.94123163 8.35667396,7.94123163 8.58924664,8.1763051 L11,10.5870585 L13.4107534,8.1763051 C13.6458268,7.94123163 14.0259456,7.94123163 14.2585183,8.1763051 L14.8236949,8.74148171 C15.0587684,8.97655517 15.0587684,9.35667396 14.8236949,9.58924664 L11.4226321,12.9903095 C11.1925602,13.2253829 10.8124414,13.2253829 10.5773679,12.9903095 L7.1763051,9.58924664 Z" id="path-1"></path>
+    </defs>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets/icons/-22px-/-angle-down-/-default">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="angle-down" fill="#2A2A2A" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

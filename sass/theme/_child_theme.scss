@@ -1,0 +1,350 @@
+.fnx-coin-providers.container {
+  h1 {
+    font-size: 20px;
+    line-height: 23px;
+    color: $gold;
+    text-transform: uppercase;
+  }
+
+  .ccp-section-row {
+    background-color: $bg-color-primary;
+    margin-bottom: 12px;
+
+    .ccp-num-circle {
+      background-color: $bg-color-num-circle;
+      color: $txt-color-num-circle;
+      font-family: $font-family-main;
+      font-weight: $font-weight-bold;
+      font-size: 21px;
+      line-height: 21px;
+      text-align: center;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      padding: 8px;
+    }
+
+    .ccp-title {
+      font-family: $font-family-aux;
+      font-weight: $font-weight-normal;
+      color: $txt-color-main;
+      font-size: 34px;
+      letter-spacing: 0.25px;
+      line-height: 41px;
+    }
+
+    .ccp-subtitle {
+      font-family: $font-family-main;
+      font-weight: $font-weight-normal;
+      color: $txt-color-muted;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      line-height: 16px;
+      // The above font size seems too tiny
+      // This font size would be better:
+      //font-size: 1.1rem;
+      //letter-spacing: 1.5px;
+      //line-height: 1.5rem;
+      text-transform: uppercase;
+      padding-bottom: 0.5rem;
+      text-align: left;
+    }
+
+    .ccp-star-rating img {
+      width: 24px;
+      //width: 1.6rem;
+      vertical-align: text-bottom;
+    }
+
+    .ccp-line {
+      height: 1px;
+      width: 100%;
+      border: 1px solid $bg-color-line;
+      /* margin: 0 auto 1rem; */
+    }
+
+    .btn-outline-info {
+      color: $txt-blue-btn;
+      border-color: $btn-color-blue;
+      text-transform: uppercase;
+      font-family: $font-family-main;
+      font-weight: $font-weight-bold;
+      font-size: 13px;
+      line-height: 16px;
+
+      &:hover {
+        color: $txt-blue-btn-alt;
+        background-color: $btn-color-blue;
+        border-color: $btn-color-blue;
+      }
+    }
+
+    .btn-warning {
+      color: $txt-orange-btn;
+      background-color: $btn-color-orange;
+      text-transform: uppercase;
+      font-family: $font-family-main;
+      font-weight: $font-weight-bold;
+      font-size: 13px;
+      line-height: 16px;
+
+      &:hover {
+        background-color: darken( $btn-color-orange, 10% );
+      }
+    }
+
+    @media (max-width: 767px) {
+      .btn-outline-info {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    .ccp-main-features, .ccp-main-features a {
+      font-family: $font-family-main;
+      font-weight: $font-weight-bold;
+      color: $txt-color-main;
+      font-size: 12px;
+      //font-size: 80%;
+      letter-spacing: 0.4px;
+      line-height: 16px;
+    }
+
+    .ccp-main-features img, table img {
+      width: 14px;
+      //width: 1rem;
+      margin-right: .1rem;
+    }
+
+    .ccp-main-features li {
+      margin: 0 0 13px 0.05rem;
+    }
+    .ccp-main-features li.list-inline-item {
+      display: inline-block;
+    }
+    @media (min-width: 768px) {
+      .ccp-main-features li.list-inline-item {
+          display: block;
+      }
+    }
+
+    .ccp-available-coins-top img {
+      /* vertical-align: text-bottom;*/
+      width: 28px;
+      //width: 1.75rem;
+    }
+
+    //@media (max-width: 991px) {
+    //  .ccp-available-coins-top img {
+    //    width: 28px;
+    //  }
+    //}
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .ccp-available-coins-top img {
+        width: 36px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .ccp-available-coins-top img {
+        width: 44px;
+      }
+    }
+
+
+    .ccp-disclaimer {
+      font-family: $font-family-main;
+      font-weight: $font-weight-normal;
+      color: $txt-color-faint;
+      font-size: 10px;
+      letter-spacing: 0.33px;
+      line-height: 13px;
+      //font-size: 0.65rem;
+      //letter-spacing: 0.33px;
+      //line-height: 13px;
+      margin-bottom: 0;
+    }
+
+    .ccp-details-link a {
+      font-family: $font-family-main;
+      font-weight: $font-weight-bold;
+      color: $txt-color-blue;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      line-height: 16px;
+      text-transform: uppercase;
+      
+      &:hover {
+        text-decoration: none !important;
+      }
+    }
+
+    .ccp-details-link {
+      min-height: 24px;
+      margin: 8px 0 3px 0;
+    }
+    .ccp-details-link a {
+      position: relative;
+
+      &:after {
+        content: "show details";
+        position: absolute;
+        width: 120px;
+        right: -56px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        background: url($icon-arrow-down) no-repeat 100px -4px;
+      }
+    }
+
+    .ccp-details-link a.details-hide {
+      position: relative;
+
+      &:after {
+        content: "hide details";
+        position: absolute;
+        width: 120px;
+        right: -56px;
+        padding-right: 20px;
+        background: url($icon-arrow-up) no-repeat 100px -5px;
+      }
+    }
+
+    .ccp-details-col {
+      background-color: $bg-color-secondary;
+
+      .table {
+        font-family: $font-family-main;
+        font-weight: $font-weight-normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+      }
+
+      .table td:first-of-type {
+        width: 88%;
+        padding-left: 3px;
+      }
+      .table td:last-of-type {
+        padding-right: 3px;
+        padding-left: 3px;
+      }
+      .table td {
+        border: none;
+        font-family: $font-family-main;
+        font-weight: $font-weight-normal;
+        color: $txt-color-main;
+        font-size: 12px;
+        letter-spacing: 0.4px;
+        line-height: 16px;
+      }
+      .table tr {
+        border-top: 1px solid $bg-color-line;
+      }
+      .table tr:first-of-type {
+        border-top: none;
+      }
+
+      .carousel-inner {
+        display: flex;
+        justify-content: center;
+
+        .carousel-item {
+          padding-bottom: 10px;
+          //max-width: 400px;
+          margin: 0 auto;
+          // prevent text from wrapping:
+          flex: 0 0 auto;
+        }
+      }
+
+      .carousel-indicators {
+        position: relative;
+
+        li {
+          border-radius: 50%;
+          margin-right: 20px;
+          width: 15px;
+          height: 15px;
+          border: none;
+          line-height: 30px;
+          background-color: $carousel-indicator-background;
+        }
+
+        .active {
+          background: $carousel-indicator-background-active;
+        }
+      }
+
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-size: 100%, 100%;
+        background-image: none;
+        position: relative;
+      }
+
+      .carousel-control-prev-icon {
+
+        &:after {
+          content: url($carousel-control-icon);
+          left: -8px;
+          margin-top: -7px;
+          position: absolute;
+          transform: rotate(180deg);
+        }
+      }
+
+      .carousel-control-next-icon {
+
+        &:after {
+          content: url($carousel-control-icon);
+          right: -8px;
+          position: absolute;
+          transform: rotate(0deg);
+        }
+      }
+
+
+
+
+    }
+
+
+  }
+
+
+  .loadmore {
+
+
+    .btn-outline-info {
+      color: $txt-blue-btn;
+      border-color: $btn-color-blue;
+      text-transform: uppercase;
+      font-family: $font-family-main;
+      font-weight: $font-weight-bold;
+      font-size: 13px;
+      line-height: 16px;
+
+      &:hover {
+        color: $txt-blue-btn-alt;
+        background-color: $btn-color-blue;
+        border-color: $btn-color-blue;
+      }
+    }
+
+    #ajax-no-posts {
+      display: none;
+    }
+
+  }
+
+
+}
+
+@media (max-width: 374px) {
+  .fnx-coin-providers.container {
+    padding: 0;
+  }
+}

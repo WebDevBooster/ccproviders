@@ -1,6 +1,7 @@
 {
   "browserSyncOptions" : {
-    "proxy": "localhost/wordpress/",
+    "proxy": "localhost/fnx/",
+    "port": "80",
     "notify": false
   },
   "browserSyncWatchFiles" : [

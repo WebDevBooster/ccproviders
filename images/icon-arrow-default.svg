@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.2 (72643) - https://sketchapp.com -->
+    <title>5B67081D-A773-4378-B3E6-C57936F57FC9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8.76171877,7.6640625 L3.44921874,12.9765625 C3.08203124,13.34375 2.48828124,13.34375 2.12499999,12.9765625 L1.24218748,12.09375 C0.874999979,11.7265625 0.874999979,11.1328125 1.24218748,10.7695313 L5.0078125,7.00390625 L1.24218748,3.23828123 C0.874999979,2.87109373 0.874999979,2.27734373 1.24218748,1.91406247 L2.12109374,1.02343747 C2.48828124,0.656249968 3.08203124,0.656249968 3.44531249,1.02343747 L8.75781252,6.3359375 C9.12890627,6.703125 9.12890627,7.296875 8.76171877,7.6640625 L8.76171877,7.6640625 Z" id="path-1"></path>
+    </defs>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets/icons/-24px-/-angle-right-/-default">
+            <g id="angle-right" transform="translate(7.000000, 5.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g></g>
+                <g id="🎨-color" mask="url(#mask-2)" fill="#2A2A2A">
+                    <g transform="translate(-7.000000, -5.000000)" id="🎨-Color">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

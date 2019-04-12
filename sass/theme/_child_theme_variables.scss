@@ -7,8 +7,78 @@
 
 
 //
-// Color system
+// Colors
+//
+$gold: #D5BE99;
+$txt-color-num-circle: #fff;
+$txt-color-main: #2A2A2A;
+$txt-color-muted: #969595;
+$txt-color-faint: #9B9BA6;
+$txt-color-blue: #2E88C4;
+
+$txt-blue-btn: #2E88C4;
+$txt-blue-btn-alt: #fff;
+$txt-orange-btn: #fff;
+
+$btn-color-blue: #2E88C4;
+$btn-color-orange: #EB9A11;
+
+$bg-color-primary: #F6F6FA;
+$bg-color-secondary: #FBFBFF;
+$bg-color-num-circle: #EB9A11;
+$bg-color-line: #E3E3F0;
+
+
+
+//
+// Fonts
+//
+// stylelint-disable value-keyword-case
+$font-family-main: 'Roboto', sans-serif;
+$font-family-aux: 'Oswald', sans-serif;
+$font-family-base: $font-family-main;
+$font-family-head: $font-family-aux;
+
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-base: $font-weight-400;
+$font-weight-bold: $font-weight-500;
+
+body {
+  margin: 0; // 1
+  font-family: $font-family-base;
+  //@include font-size($font-size-base);
+  font-weight: $font-weight-base;
+  //line-height: $line-height-base;
+  //color: $body-color;
+  //text-align: left; // 3
+  //background-color: $body-bg; // 2
+}
+
+//
+// Headings
 //
 
-$primary: #7C008C;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  //margin-bottom: $headings-margin-bottom;
+  font-family: $font-family-head;
+  font-weight: $font-weight-base;
+  //line-height: $headings-line-height;
+  //color: $headings-color;
+}
+
+//.ccp-details-link show/hide details arrow toggle
+$icon-arrow-down: "../images/icon-angle-down-blue.svg";
+$icon-arrow-up: "../images/icon-angle-up-blue.svg";
+
+$carousel-control-icon: "../images/icon-arrow-default.svg";
+$carousel-indicator-background: #999;
+$carousel-indicator-background-active: rgb(0, 0, 0);
+
+
+
+// stylelint-enable value-keyword-case
+
+
 
