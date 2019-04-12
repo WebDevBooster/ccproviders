@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <a href="http://fnx.alexbooster.com/wp/wp-admin/"><strong>WP admin area here</strong></a>
                         <br>
                         under 'All-in-One WP Migration' &gt; Backups and restore it using
-                        <a href="http://fnx.alexbooster.com/wp/all-in-one-wp-migration.zip"><strong>this plugin</strong></a> (that's a quick way to get all the customs posts with all the data).
+                        <a href="http://fnx.alexbooster.com/wp/all-in-one-wp-migration.zip"><strong>this plugin</strong></a> (that's a quick way to get all the custom posts with all the data).
                     </p>
                     <p>
                         Click one of the links in the header to see the output of the shortcode in action or watch the following video where I go through all the important points worth mentioning:
