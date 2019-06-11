@@ -25,23 +25,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 <main class="site-main" id="main" role="main">
                     
-                    <h1>Note:</h1>
+                    <h1>This is a bespoke WordPress plugin and child theme for creating a list of custom post types (styled with Bootstrap 4) that can be embedded via shortcode in any post or page.</h1>
                     
                     <p>
-                        The current version of the shortcode (<code>[ccproviders]</code>) is designed to be used on <em>full-width</em> pages or posts. And of course, if desired, it could be adjusted for posts and pages with a sidebar as well.
+                        The current version of the shortcode (<code>[ccproviders]</code>) is designed to be used on <em>full-width</em> pages or posts.
                     </p>
                     <p>
                         You can <a href="http://fnx.alexbooster.com/wp/ccproviders.zip"><strong>download this child theme here</strong></a>.
                         Or get it on <a href="https://github.com/WebDevBooster/ccproviders"><strong>GitHub here</strong></a>.
-                        <br>
                         You can also download the backup file in the
-                        <a href="http://fnx.alexbooster.com/wp/wp-admin/"><strong>WP admin area here</strong></a>
-                        <br>
-                        under 'All-in-One WP Migration' &gt; Backups and restore it using
-                        <a href="http://fnx.alexbooster.com/wp/all-in-one-wp-migration.zip"><strong>this plugin</strong></a> (that's a quick way to get all the custom posts with all the data).
+                        <a href="http://fnx.alexbooster.com/wp/wp-admin/"><strong>WP admin area here</strong></a> under 'All-in-One WP Migration' &gt; Backups and restore it using <a href="http://fnx.alexbooster.com/wp/all-in-one-wp-migration.zip"><strong>this plugin</strong></a> (that's a quick way to get all the custom posts with all the data).
                     </p>
                     <p>
-                        Click one of the links in the header to see the output of the shortcode in action or watch the following video where I go through all the important points worth mentioning:
+                        Watch the following video where I go through all the important points and <strong style="color: #e83e8c;">watch the video at 2x speed</strong> to save time:
                     </p>
                     <p>
                         <iframe width="640" height="360" src="https://www.youtube.com/embed/1KTQFxgTRqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
