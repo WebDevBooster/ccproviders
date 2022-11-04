@@ -28,7 +28,7 @@
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
     "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-clean-css": "^3.9.2",
     "gulp-clone": "2.0.1",
@@ -49,7 +49,7 @@
     "merge2": "^1.2.1",
     "popper.js": "^1.12.9",
     "run-sequence": "^2.2.1",
-    "understrap": "^0.9.1",
+    "understrap": "^0.9.6",
     "undescores-for-npm": "^1.0.0"
   }
 }
